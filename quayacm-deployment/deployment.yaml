@@ -24,4 +24,5 @@ spec:
         ports:
         - containerPort: 8080
           name: budget-app
+      imagePullSecrets: finance-dev-deployer-pull-secret    
 ---
